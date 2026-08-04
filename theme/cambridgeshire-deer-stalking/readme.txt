@@ -1,0 +1,5 @@
+=== Cambridgeshire Deer Stalking ===
+
+Cambridgeshire Deer Stalking is a custom WordPress block theme for a professional guide offering guided deer stalking on private ground in Cambridgeshire, England. The site covers roe deer, muntjac and Chinese water deer, and works on a quiet enquiry model with no published prices. The theme name is a working placeholder until the business name is decided. It requires WordPress 6.7 or later and PHP 8.1 or later, and it uses Cormorant Garamond for headings and Inter for body text.
+
+Font and image files are not bundled with the theme and must be added before launch. Place four woff2 files at assets/fonts/: cormorant-garamond-500.woff2, cormorant-garamond-600.woff2, inter-400.woff2 and inter-500.woff2. Place photography at assets/images/, including deer-stalking-cambridgeshire-dawn-hero.jpg, deer-stalking-guide-glassing-hedgerow.jpg and high-seat-woodland-edge-first-light.jpg. Species photographs are marked in the patterns as PHOTOGRAPH TO FOLLOW until they are supplied.

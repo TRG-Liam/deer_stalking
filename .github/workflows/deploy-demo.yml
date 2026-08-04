@@ -1,0 +1,78 @@
+name: Deploy demo to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Start WordPress Playground
+        run: |
+          npx --yes @wp-playground/cli@latest server --port=8881 \
+            --mount=./theme/cambridgeshire-deer-stalking:/wordpress/wp-content/themes/cambridgeshire-deer-stalking \
+            --blueprint=./.claude/ci-blueprint.json &
+          for i in $(seq 1 90); do
+            curl -sf -o /dev/null http://127.0.0.1:8881/ && break
+            sleep 2
+          done
+          curl -sf -o /dev/null http://127.0.0.1:8881/ || (echo "Playground never came up" && exit 1)
+
+      - name: Snapshot site to static HTML
+        run: |
+          mkdir -p _site
+          wget --mirror --convert-links --adjust-extension --page-requisites \
+               --no-parent --no-host-directories --directory-prefix=_site \
+               --exclude-directories=wp-admin,wp-json \
+               --reject-regex '[?]' \
+               --reject 'xmlrpc*,wp-login*' \
+               http://127.0.0.1:8881/ || true
+
+          # Theme assets referenced from inline CSS (fonts) are invisible to wget: copy them wholesale.
+          mkdir -p _site/wp-content/themes/cambridgeshire-deer-stalking
+          cp -r theme/cambridgeshire-deer-stalking/assets _site/wp-content/themes/cambridgeshire-deer-stalking/
+
+          # Rewrite any remaining absolute sandbox URLs to the Pages subpath.
+          find _site \( -name '*.html' -o -name '*.css' -o -name '*.js' \) -type f \
+            -exec sed -i 's#http://127\.0\.0\.1:8881#/deer_stalking#g' {} +
+
+          touch _site/.nojekyll
+
+          # Sanity gates: the five pages exist and the hero survived.
+          test -f _site/index.html
+          test -f _site/deer-stalking/index.html
+          test -f _site/the-deer/index.html
+          test -f _site/your-guide/index.html
+          test -f _site/contact/index.html
+          grep -q "Quiet mornings" _site/index.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

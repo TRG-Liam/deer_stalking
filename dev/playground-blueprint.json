@@ -1,0 +1,6 @@
+{
+  "steps": [
+    { "step": "activateTheme", "themeFolderName": "cambridgeshire-deer-stalking" },
+    { "step": "login", "username": "admin" }
+  ]
+}
