@@ -2,4 +2,13 @@ node_modules/
 *.log
 .DS_Store
 Thumbs.db
-.claude/settings.local.json
+
+# local-only working files — never commit
+.claude/
+CLAUDE.md
+PLAN.md
+RESEARCH.md
+DESIGN_PROMPT.md
+IMAGE_PROMPTS.md
+QUESTIONS_FOR_MITCH.md
+design-mock/

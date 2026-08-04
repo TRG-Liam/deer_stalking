@@ -28,7 +28,7 @@ jobs:
         run: |
           npx --yes @wp-playground/cli@latest server --port=8881 \
             --mount=./theme/cambridgeshire-deer-stalking:/wordpress/wp-content/themes/cambridgeshire-deer-stalking \
-            --blueprint=./.claude/ci-blueprint.json &
+            --blueprint=./dev/ci-blueprint.json &
           for i in $(seq 1 90); do
             curl -sf -o /dev/null http://127.0.0.1:8881/ && break
             sleep 2
