@@ -45,6 +45,10 @@ jobs:
                --reject 'xmlrpc*,wp-login*' \
                http://127.0.0.1:8881/ || true
 
+          # WordPress prints some link tags with single-quoted attributes:
+          # normalise them to double quotes so one set of patterns covers all.
+          find _site -name '*.html' -type f -exec sed -i "s/href='\([^']*\)'/href=\"\1\"/g; s/src='\([^']*\)'/src=\"\1\"/g" {} +
+
           # wget skips query-string URLs, which is exactly how WordPress serves
           # its CSS and JS (style.css?ver=...). Fetch each one to its query-less
           # path, then strip the version queries from the HTML so references match.
