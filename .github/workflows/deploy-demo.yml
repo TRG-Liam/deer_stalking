@@ -45,6 +45,19 @@ jobs:
                --reject 'xmlrpc*,wp-login*' \
                http://127.0.0.1:8881/ || true
 
+          # wget skips query-string URLs, which is exactly how WordPress serves
+          # its CSS and JS (style.css?ver=...). Fetch each one to its query-less
+          # path, then strip the version queries from the HTML so references match.
+          grep -rhoE '(href|src)="http://127\.0\.0\.1:8881/[^"]*\?[^"]*"' _site --include='*.html' \
+            | sed -E 's/^(href|src)="//; s/"$//' | sort -u | while read -r url; do
+              clean="${url%%\?*}"
+              rel="${clean#http://127.0.0.1:8881/}"
+              [ -z "$rel" ] && continue
+              mkdir -p "_site/$(dirname "$rel")"
+              curl -sf "$url" -o "_site/$rel" || echo "WARN could not fetch $url"
+            done
+          find _site -name '*.html' -type f -exec sed -i -E 's/\?ver=[^"]*"/"/g' {} +
+
           # Theme assets referenced from inline CSS (fonts) are invisible to wget: copy them wholesale.
           mkdir -p _site/wp-content/themes/cambridgeshire-deer-stalking
           cp -r theme/cambridgeshire-deer-stalking/assets _site/wp-content/themes/cambridgeshire-deer-stalking/
@@ -55,13 +68,19 @@ jobs:
 
           touch _site/.nojekyll
 
-          # Sanity gates: the five pages exist and the hero survived.
+          # Sanity gates: pages exist, hero survived, no sandbox URLs left,
+          # and every stylesheet the HTML references is actually in the artifact.
           test -f _site/index.html
           test -f _site/deer-stalking/index.html
           test -f _site/the-deer/index.html
           test -f _site/your-guide/index.html
           test -f _site/contact/index.html
           grep -q "Quiet mornings" _site/index.html
+          ! grep -q "127.0.0.1:8881" _site/index.html
+          grep -rhoE 'href="/deer_stalking/[^"]*\.css"' _site --include='*.html' \
+            | sed -E 's#^href="/deer_stalking/##; s/"$//' | sort -u | while read -r css; do
+              test -f "_site/$css" || { echo "MISSING stylesheet: $css"; exit 1; }
+            done
 
       - uses: actions/upload-pages-artifact@v3
         with:
