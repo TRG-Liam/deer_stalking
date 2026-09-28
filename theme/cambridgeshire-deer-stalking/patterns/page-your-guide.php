@@ -13,7 +13,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading">Stalking with [GUIDE NAME]</h1>
+<h1 class="wp-block-heading">Stalking with Mitch Baker</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-pagehead__lead"} -->
@@ -31,14 +31,14 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"cds-imgph__note"} -->
-<p class="cds-imgph__note"><em>Portrait of [GUIDE NAME] on the ground at first light, seen from the side or behind, no direct face to camera until consent is confirmed.</em></p>
+<p class="cds-imgph__note"><em>Portrait of Mitch Baker on the ground at first light, seen from the side or behind, no direct face to camera until consent is confirmed.</em></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"cds-split__body"} -->
 <div class="wp-block-group cds-split__body"><!-- wp:group {"className":"cds-prose cds-prose--lead"} -->
 <div class="wp-block-group cds-prose cds-prose--lead"><!-- wp:paragraph -->
-<p>[PLACEHOLDER: opening paragraph in [GUIDE NAME]'s own words. Where he is from, how he came to deer, and why he still gets up at three in the morning for it.]</p>
+<p>[PLACEHOLDER: opening paragraph in Mitch's own words. Where he is from, how he came to deer, and why he still gets up at three in the morning for it.]</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

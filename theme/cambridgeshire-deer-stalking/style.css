@@ -1,8 +1,8 @@
 /*
-Theme Name: Cambridgeshire Deer Stalking
-Description: Custom block theme for a professional deer stalking guide in Cambridgeshire. The name is a working placeholder.
+Theme Name: Blackthorn Hunting
+Description: Custom block theme for Blackthorn Hunting, guided deer stalking in Cambridgeshire.
 Author: Liam Rourke
-Version: 0.2.5
+Version: 0.2.6
 Requires at least: 6.7
 Requires PHP: 8.1
 License: GNU General Public License v2 or later
@@ -179,9 +179,9 @@ body .cds-accordion > *{margin-block-start:0;margin-block-end:0}
 @media(min-width:900px){.cds-split{grid-template-columns:1fr 1fr;gap:var(--space-9)}}
 /* Core prints its own image styles after this sheet, so these selectors
    must outrank .wp-block-image img (height:auto), not merely follow it. */
-.cds-imgbreak{height:clamp(320px,52vh,640px);overflow:hidden}
+.cds-imgbreak{height:clamp(360px,58vh,720px);overflow:hidden}
 figure.wp-block-image.cds-imgbreak img,
-.cds-imgbreak img{width:100%;height:100%;object-fit:cover;object-position:50% 70%;display:block}
+.cds-imgbreak img{width:100%;height:100%;object-fit:cover;object-position:50% 55%;display:block}
 
 /* ==================================================================
    WordPress block bridges

@@ -1,5 +1,5 @@
 /**
- * Front end behaviour for Cambridgeshire Deer Stalking.
+ * Front end behaviour for Blackthorn Hunting.
  *
  * Two small jobs: the header turns solid as the home page scrolls, and
  * content marked cds-fade eases in as it enters the viewport. No

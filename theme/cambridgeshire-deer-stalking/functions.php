@@ -1,6 +1,6 @@
 <?php
 /**
- * Theme setup for Cambridgeshire Deer Stalking.
+ * Theme setup for Blackthorn Hunting.
  *
  * Kept deliberately small. The theme is configured through theme.json.
  * This file registers the pattern category, runs the one-time site setup,
@@ -92,7 +92,7 @@ function cds_site_identity_cleanup() {
 		return;
 	}
 
-	update_option( 'blogname', 'Cambridgeshire Deer Stalking' );
+	update_option( 'blogname', 'Blackthorn Hunting' );
 	update_option( 'blogdescription', 'Guided deer stalking in Cambridgeshire' );
 
 	$sample_page = get_page_by_path( 'sample-page' );

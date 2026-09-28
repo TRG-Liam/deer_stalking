@@ -183,7 +183,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-heading__lead"} -->
-<p class="cds-heading__lead">Confirmed with [GUIDE NAME] before this page goes live.</p>
+<p class="cds-heading__lead">Confirmed with Mitch before this page goes live.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"cds-inclist"} -->
@@ -231,7 +231,7 @@
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose">
 <!-- wp:paragraph -->
-<p>Every outing is arranged personally, so the cost depends on what is planned: the length of the morning, the species being looked for, and how many of you are coming out. Rather than publish a figure that would not fit most enquiries, [GUIDE NAME] gives you a price when he replies.</p>
+<p>Every outing is arranged personally, so the cost depends on what is planned: the length of the morning, the species being looked for, and how many of you are coming out. Rather than publish a figure that would not fit most enquiries, Mitch gives you a price when he replies.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

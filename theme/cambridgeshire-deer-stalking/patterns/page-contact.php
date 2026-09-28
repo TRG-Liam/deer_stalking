@@ -34,7 +34,7 @@
 
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose"><!-- wp:paragraph -->
-<p>[GUIDE NAME] is often out at first and last light, so there may be a wait before you hear back. [REPLY TIME TO BE CONFIRMED]</p>
+<p>Mitch is often out at first and last light, so there may be a wait before you hear back. [REPLY TIME TO BE CONFIRMED]</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

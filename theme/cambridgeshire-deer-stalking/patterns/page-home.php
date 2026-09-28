@@ -211,7 +211,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"cds-heading"} -->
-<h2 class="wp-block-heading cds-heading">Out with [GUIDE NAME]</h2>
+<h2 class="wp-block-heading cds-heading">Out with Mitch</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-heading__lead"} -->
@@ -220,7 +220,7 @@
 
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose"><!-- wp:paragraph -->
-<p>[GUIDE NAME] stalks deer across private land in Cambridgeshire. You will be with him for the whole morning, at whatever pace suits you, and he is happy to explain what he is looking at as the light comes up.</p>
+<p>Mitch stalks deer across private land in Cambridgeshire. You will be with him for the whole morning, at whatever pace suits you, and he is happy to explain what he is looking at as the light comes up.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
