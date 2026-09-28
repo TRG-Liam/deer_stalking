@@ -2,7 +2,7 @@
 Theme Name: Cambridgeshire Deer Stalking
 Description: Custom block theme for a professional deer stalking guide in Cambridgeshire. The name is a working placeholder.
 Author: Liam Rourke
-Version: 0.2.2
+Version: 0.2.3
 Requires at least: 6.7
 Requires PHP: 8.1
 License: GNU General Public License v2 or later
@@ -208,6 +208,32 @@ body.admin-bar .cds-header{top:32px}
 .cds-header .wp-block-navigation__responsive-container.is-menu-open{background-color:var(--green-black)}
 .cds-header .wp-block-navigation__responsive-container-open,
 .cds-header .wp-block-navigation__responsive-container-close{color:var(--text-on-dark)}
+
+/* Header responsive hardening. The one-row header must never wrap:
+   below 1100px the row tightens, below 900px the navigation collapses
+   to the burger (mirroring core's own sub-600px rules), and the logo
+   never breaks onto two lines. */
+.cds-logo__name{white-space:nowrap}
+.cds-header__inner{flex-wrap:nowrap}
+.cds-header .wp-block-navigation,
+.cds-header .wp-block-navigation .wp-block-navigation__container,
+.cds-header .wp-block-navigation ul{flex-wrap:nowrap}
+.cds-header__inner .wp-block-buttons{flex:none}
+@media(min-width:900px) and (max-width:1099px){
+	.cds-header__inner{gap:var(--space-4)}
+	.cds-logo__name{font-size:17px}
+	.cds-header .wp-block-navigation a{font-size:var(--size-caption)}
+	.cds-header .wp-block-navigation .wp-block-navigation__container{gap:var(--space-4)}
+}
+@media(min-width:600px) and (max-width:899px){
+	.cds-header .wp-block-navigation__responsive-container:not(.is-menu-open){display:none}
+	.cds-header .wp-block-navigation__responsive-container-open:not(.always-shown){display:flex}
+}
+
+/* The html element shows through 1px rounding gaps around the fixed
+   admin bar at fractional browser zoom. Keep it dark so no white line
+   can ever appear above the header or below the footer. */
+html{background-color:var(--green-black)}
 
 /* Hero: the core cover block carrying cds-hero-cover. */
 .wp-block-cover.cds-hero-cover{min-height:90vh;display:flex;align-items:flex-end;padding:0;background:var(--green-black)}
