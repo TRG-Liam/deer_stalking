@@ -2,7 +2,7 @@
 Theme Name: Cambridgeshire Deer Stalking
 Description: Custom block theme for a professional deer stalking guide in Cambridgeshire. The name is a working placeholder.
 Author: Liam Rourke
-Version: 0.2.3
+Version: 0.2.4
 Requires at least: 6.7
 Requires PHP: 8.1
 License: GNU General Public License v2 or later
@@ -174,8 +174,8 @@ body .cds-accordion > *{margin-block-start:0;margin-block-end:0}
 @media(min-width:820px){.cds-grid--3{grid-template-columns:repeat(3,1fr);gap:var(--space-6)}}
 .cds-split{display:grid;gap:var(--space-8)}
 @media(min-width:900px){.cds-split{grid-template-columns:1fr 1fr;gap:var(--space-9)}}
-.cds-imgbreak{height:clamp(280px,46vh,520px);overflow:hidden}
-.cds-imgbreak img{width:100%;height:100%;object-fit:cover;display:block}
+.cds-imgbreak{height:clamp(320px,52vh,640px);overflow:hidden}
+.cds-imgbreak img{width:100%;height:100%;object-fit:cover;object-position:50% 70%;display:block}
 
 /* ==================================================================
    WordPress block bridges
@@ -203,7 +203,12 @@ body.admin-bar .cds-header{top:32px}
 @media(max-width:782px){body.admin-bar .cds-header{top:46px}}
 
 /* Header navigation. */
-.cds-header .wp-block-navigation a{font-size:var(--size-small);color:var(--text-on-dark);opacity:.78;border-bottom:1px solid transparent;padding-bottom:3px;text-decoration:none;transition:var(--transition-colour)}
+/* Core's navigation rules outrank a plain anchor selector and make the
+   links inherit body charcoal, so set the colour on the block itself and
+   match core's specificity on the item content too. */
+.cds-header .wp-block-navigation{color:var(--text-on-dark)}
+.cds-header .wp-block-navigation:not(.has-text-color) .wp-block-navigation-item__content{color:var(--text-on-dark)}
+.cds-header .wp-block-navigation a{font-size:var(--size-small);color:var(--text-on-dark);opacity:.92;border-bottom:1px solid transparent;padding-bottom:3px;text-decoration:none;transition:var(--transition-colour)}
 .cds-header .wp-block-navigation a:hover{opacity:1;border-bottom-color:var(--brass)}
 .cds-header .wp-block-navigation__responsive-container.is-menu-open{background-color:var(--green-black)}
 .cds-header .wp-block-navigation__responsive-container-open,
