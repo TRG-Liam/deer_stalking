@@ -34,7 +34,7 @@
 
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose"><!-- wp:paragraph -->
-<p>Your guide is often out at first and last light, so there may be a wait before you hear back. [REPLY TIME TO BE CONFIRMED]</p>
+<p>Replies come as soon as the day allows. [REPLY TIME TO BE CONFIRMED]</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -64,7 +64,7 @@
 
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose"><!-- wp:paragraph -->
-<p>Private ground in Cambridgeshire. Exact locations are given once a morning is booked.</p>
+<p>The stalking is in Cambridgeshire. Exact locations are confirmed when you book.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -75,7 +75,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Tell me about the morning you want</h2>
+<h2 class="wp-block-heading">Tell me about the outing you want</h2>
 <!-- /wp:heading -->
 
 <!-- wp:html -->

@@ -17,7 +17,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-pagehead__lead"} -->
-<p class="cds-pagehead__lead">One guide, one county, and the same ground walked year after year.</p>
+<p class="cds-pagehead__lead">One guide, one county: guided stalking and deer management in Cambridgeshire.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -31,14 +31,14 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"cds-imgph__note"} -->
-<p class="cds-imgph__note"><em>Portrait of the guide on the ground at first light, seen from the side or behind, no direct face to camera until consent is confirmed.</em></p>
+<p class="cds-imgph__note"><em>Portrait of the guide on the ground, seen from the side or behind, no direct face to camera until consent is confirmed.</em></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"cds-split__body"} -->
 <div class="wp-block-group cds-split__body"><!-- wp:group {"className":"cds-prose cds-prose--lead"} -->
 <div class="wp-block-group cds-prose cds-prose--lead"><!-- wp:paragraph -->
-<p>[PLACEHOLDER: opening paragraph in the guide's own words. Where he is from, how he came to deer, and why he still gets up at three in the morning for it.]</p>
+<p>[PLACEHOLDER: opening paragraph in the guide's own words. Where he is from, how he came to deer, and what keeps him at it.]</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -76,7 +76,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>[PLACEHOLDER: second paragraph on how guests are looked after. Pace, safety, honesty about what a morning can and cannot promise.]</p>
+<p>[PLACEHOLDER: second paragraph on how guests are looked after. Pace, safety, honesty about what an outing can and cannot promise.]</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -121,7 +121,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Come out for a morning</h2>
+<h2 class="wp-block-heading">Come out for a stalk</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-ctaband__lead"} -->

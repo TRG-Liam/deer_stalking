@@ -17,7 +17,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-pagehead__lead"} -->
-<p class="cds-pagehead__lead">Roe, muntjac and Chinese water deer, on flat lowland ground in Cambridgeshire.</p>
+<p class="cds-pagehead__lead">Roe, muntjac and Chinese water deer, at home in the low, open country of Cambridgeshire.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -30,7 +30,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>What follows is a plain description of each, and of what stalking them is actually like. Season dates are not listed on this site: [SEASON DATES TO BE CONFIRMED] and are confirmed with you when a date is agreed.</p>
+<p>What follows is a plain description of each. Season dates are not listed on this site: [SEASON DATES TO BE CONFIRMED] and are confirmed with you when a date is agreed.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -59,7 +59,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-heading__lead"} -->
-<p class="cds-heading__lead">Woodland edge and hedgerow, best in the first hour of light.</p>
+<p class="cds-heading__lead">A deer of woodland edge and hedgerow, moving early and late in the day.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"cds-prose"} -->
@@ -68,13 +68,13 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Stalking them here is patient, close work. You watch a hedge line or a field margin and wait for a buck to step out, which means most of the morning is spent still. When it does happen it happens quickly.</p>
+<p>Stalking roe is patient work wherever it is done, and a buck seldom shows himself for long. What a roe outing here involves is confirmed when you enquire.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cds-secondary cds-btn--sm"} -->
-<div class="wp-block-button is-style-cds-secondary cds-btn--sm"><a class="wp-block-button__link wp-element-button" href="/contact/">Ask about a morning stalk</a></div>
+<div class="wp-block-button is-style-cds-secondary cds-btn--sm"><a class="wp-block-button__link wp-element-button" href="/contact/">Ask about a stalk</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -108,17 +108,17 @@
 
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose"><!-- wp:paragraph -->
-<p>Muntjac are thoroughly at home in this part of England. They live in thick cover, hazel coppice, bramble and overgrown drains, and they rarely give you a long view of themselves.</p>
+<p>Muntjac are thoroughly at home in this part of England. They live in thick cover, hazel coppice, bramble and overgrown drains, and they are seldom in the open for long.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Stalking them is quiet and slow, often within a few tens of metres. Timing is guided by welfare rather than the calendar, and does with dependent young are left alone.</p>
+<p>Muntjac breed all year round, so good practice is guided by welfare rather than the calendar, and leaves does with dependent young alone. What an outing after them here involves is agreed when you enquire.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cds-secondary cds-btn--sm"} -->
-<div class="wp-block-button is-style-cds-secondary cds-btn--sm"><a class="wp-block-button__link wp-element-button" href="/contact/">Ask about a morning stalk</a></div>
+<div class="wp-block-button is-style-cds-secondary cds-btn--sm"><a class="wp-block-button__link wp-element-button" href="/contact/">Ask about a stalk</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -147,22 +147,22 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-heading__lead"} -->
-<p class="cds-heading__lead">Cambridgeshire is one of the very few places in the world with a strong wild population.</p>
+<p class="cds-heading__lead">One of the few strong wild populations in the world is found here.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose"><!-- wp:paragraph -->
-<p>Chinese water deer are the reason some people travel a long way to stalk here. The species is scarce almost everywhere else, yet this corner of England holds a genuinely established wild population, and Cambridgeshire ground is part of it.</p>
+<p>Chinese water deer are the reason some people travel a long way to stalk here. The species is scarce almost everywhere else, yet this corner of England holds a genuinely established wild population, and Cambridgeshire is part of it.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>They favour damp, rough ground: fen edges, reed and dyke sides, and the wet margins of arable fields. They sit tight and rely on cover, so seeing one at all is the first achievement of the morning.</p>
+<p>They favour damp, rough ground: fen edges, reed and dyke sides, and the wet margins of arable fields. They sit tight and rely on cover, so simply finding one takes patience.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cds-secondary cds-btn--sm"} -->
-<div class="wp-block-button is-style-cds-secondary cds-btn--sm"><a class="wp-block-button__link wp-element-button" href="/contact/">Ask about a morning stalk</a></div>
+<div class="wp-block-button is-style-cds-secondary cds-btn--sm"><a class="wp-block-button__link wp-element-button" href="/contact/">Ask about a stalk</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -175,7 +175,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"className":"cds-smallprint"} -->
-<p class="cds-smallprint">Deer are managed here as wild animals on working farmland. Numbers, condition and crop damage all shape what is taken in any given year, and nothing is shot for the sake of it.</p>
+<p class="cds-smallprint">Deer in Cambridgeshire are wild animals, most of them living on working farmland. How the deer on any particular ground are managed is best discussed when you enquire.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -191,7 +191,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-ctaband__lead"} -->
-<p class="cds-ctaband__lead">If you are hoping for one species in particular, say so in your enquiry and I will tell you honestly what the ground is doing.</p>
+<p class="cds-ctaband__lead">If you are hoping for one species in particular, say so in your enquiry and I will give you an honest answer.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->

@@ -12,11 +12,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"cds-hero-title"} -->
-<h1 class="wp-block-heading cds-hero-title">Quiet mornings of deer stalking on Cambridgeshire ground</h1>
+<h1 class="wp-block-heading cds-hero-title">Quiet, careful deer stalking on Cambridgeshire ground</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-hero-lead"} -->
-<p class="cds-hero-lead">Accompanied outings on private land for roe, muntjac and Chinese water deer.</p>
+<p class="cds-hero-lead">Guided outings for roe, muntjac and Chinese water deer.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
@@ -30,11 +30,11 @@
 <div class="wp-block-group alignfull cds-section"><!-- wp:group {"className":"cds-section__inner cds-section__inner--text cds-fade"} -->
 <div class="wp-block-group cds-section__inner cds-section__inner--text cds-fade"><!-- wp:group {"className":"cds-prose cds-prose--lead"} -->
 <div class="wp-block-group cds-prose cds-prose--lead"><!-- wp:paragraph -->
-<p>Blackthorn Hunting offers professionally guided deer stalking on private ground in Cambridgeshire. Outings run at first and last light, one party at a time, and are arranged personally by enquiry.</p>
+<p>Blackthorn Hunting offers professionally guided deer stalking in Cambridgeshire. Every outing is arranged personally by enquiry.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The ground holds roe, muntjac and Chinese water deer. No experience is assumed, and every outing is planned around the person coming out.</p>
+<p>The county holds roe, muntjac and Chinese water deer. Experienced stalkers and first-timers are both welcome, and what an outing involves is agreed when you book.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -43,15 +43,15 @@
 <!-- wp:group {"align":"full","className":"cds-section cds-section--alt"} -->
 <div class="wp-block-group alignfull cds-section cds-section--alt"><!-- wp:group {"className":"cds-section__inner cds-fade"} -->
 <div class="wp-block-group cds-section__inner cds-fade"><!-- wp:paragraph {"className":"cds-eyebrow"} -->
-<p class="cds-eyebrow">The shape of a morning</p>
+<p class="cds-eyebrow">The pursuit</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"cds-heading"} -->
-<h2 class="wp-block-heading cds-heading">How an outing usually runs</h2>
+<h2 class="wp-block-heading cds-heading">The shape of a stalk</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-heading__lead"} -->
-<p class="cds-heading__lead">Every morning is different, but they tend to follow the same shape.</p>
+<p class="cds-heading__lead">Every stalk is different, but the pursuit keeps the same shape wherever it is done. The detail of your own outing is agreed when you enquire.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"cds-rule cds-rule--brass"} -->
@@ -69,7 +69,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-card__text"} -->
-<p class="cds-card__text">You arrive in the dark and we walk in slowly. Eyes adjust, the wind is checked, and the ground starts to show itself as the sky lightens.</p>
+<p class="cds-card__text">Deer move most in the first and last light of the day. That is why stalking has always been a pursuit of dawn and dusk.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -83,7 +83,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-card__text"} -->
-<p class="cds-card__text">Most of a morning is spent still or moving very quietly along a hedge line. Deer are watched long before anything else is considered.</p>
+<p class="cds-card__text">Stalking is slow, quiet work into the wind, and most of it is watching. The deer set the pace.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -97,7 +97,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-card__text"} -->
-<p class="cds-card__text">A shot is only taken when the deer, the backstop and the light are all right. Plenty of mornings end without one, and that is a good morning too.</p>
+<p class="cds-card__text">No responsible stalker fires unless the deer, the backstop and the light are all right. Plenty of stalks end without a shot.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -131,7 +131,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-card__text"} -->
-<p class="cds-card__text">The classic lowland stalking deer. Woodland edge and hedgerow at first light.</p>
+<p class="cds-card__text">The classic lowland stalking deer. It keeps to woodland edges and hedgerows, and moves early and late.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"cds-card__more"} -->
@@ -155,7 +155,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-card__text"} -->
-<p class="cds-card__text">Small, secretive and resident in numbers across the county. Close, patient work in thick cover.</p>
+<p class="cds-card__text">Small, secretive and resident in numbers across the county. They keep to thick cover and rarely stray far from it.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"cds-card__more"} -->
@@ -197,7 +197,7 @@
 <!-- wp:group {"align":"full","className":"cds-mediatext cds-mediatext--alt cds-mediatext--reverse"} -->
 <div class="wp-block-group alignfull cds-mediatext cds-mediatext--alt cds-mediatext--reverse"><!-- wp:group {"className":"cds-mediatext__media"} -->
 <div class="wp-block-group cds-mediatext__media"><!-- wp:image -->
-<figure class="wp-block-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/deer-stalking-guide-glassing-hedgerow.jpg' ) ); ?>" alt="The guide glassing a hedgerow at first light"/></figure>
+<figure class="wp-block-image"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/deer-stalking-guide-glassing-hedgerow.jpg' ) ); ?>" alt="A stalker glassing a hedgerow at first light"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -243,7 +243,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Ask about a morning stalk</h2>
+<h2 class="wp-block-heading">Ask about a stalk</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-ctaband__lead"} -->

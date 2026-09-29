@@ -17,7 +17,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-pagehead__lead"} -->
-<p class="cds-pagehead__lead">Professional deer management, tailored to the requirements of your ground.</p>
+<p class="cds-pagehead__lead">Deer management for your ground, with the details agreed with you before any work starts.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -51,7 +51,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"cds-heading"} -->
-<h2 class="wp-block-heading cds-heading">Management built around your land</h2>
+<h2 class="wp-block-heading cds-heading">Management agreed around your land</h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"cds-prose"} -->
@@ -60,7 +60,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Every arrangement is planned around what your land is for. Cropping, shoot days, footpaths, livestock and neighbours are all accounted for, disturbance is kept to a minimum, and risk is assessed before any culling takes place. [DETAILS TO BE CONFIRMED]</p>
+<p>What happens on your ground is agreed with you first. Cropping, shoot days, footpaths, livestock and neighbours all belong in that conversation, along with how risk and disturbance will be handled. [DETAILS TO BE CONFIRMED]</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

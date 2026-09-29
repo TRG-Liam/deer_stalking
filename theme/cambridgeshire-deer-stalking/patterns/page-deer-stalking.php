@@ -19,7 +19,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-pagehead__lead"} -->
-<p class="cds-pagehead__lead">Accompanied outings on private ground, arranged one at a time and priced on enquiry.</p>
+<p class="cds-pagehead__lead">Guided outings after roe, muntjac and Chinese water deer, priced on enquiry.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -41,11 +41,11 @@
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose">
 <!-- wp:paragraph -->
-<p>A guided outing is a morning on private Cambridgeshire ground with one guide. You are with him from the moment you arrive until you leave, and he makes the decisions about where to go, when to move and whether a shot is on.</p>
+<p>A guided outing is deer stalking in company: you go out with your guide, in Cambridgeshire, after roe deer, muntjac or Chinese water deer. What a particular outing involves is agreed when you enquire.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The work is lowland stalking. That means hedgerows, woodland edges, spinneys and field margins rather than open hill. Distances are usually short, the wind matters, and a lot of the morning is spent standing still and looking. It is deliberately unhurried.</p>
+<p>Cambridgeshire is low, flat, open country, with arable fields, fen and small woods rather than hill ground. It holds one of the few strong wild populations of Chinese water deer in the world, and roe and muntjac do well in this sort of country too.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -71,7 +71,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-heading__lead"} -->
-<p class="cds-heading__lead">The morning is built around the person coming out on it.</p>
+<p class="cds-heading__lead">Say where you are starting from when you get in touch.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"cds-split"} -->
@@ -79,7 +79,7 @@
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose">
 <!-- wp:paragraph -->
-<p>If you have never stalked before, you will be shown everything as it comes up: how the ground is read, why we stop where we stop, and what makes a shot acceptable. There is no test and no rush, and plenty of people spend a first morning simply watching deer.</p>
+<p>If you have never stalked before, that is no bar to asking. A first guided outing is exactly the sort of thing to enquire about, and anything you would need to know or bring is covered when a date is discussed.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -87,7 +87,7 @@
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose">
 <!-- wp:paragraph -->
-<p>If you have stalked for years, you will be on ground you probably have not walked, after three species that behave quite differently. Say what you are hoping for when you enquire and the morning is planned towards it.</p>
+<p>If you have stalked for years, the interest here is the species: roe, muntjac and Chinese water deer, three deer with quite different habits, in one county. Say what you are hoping for when you enquire.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"cds-smallmuted"} -->
@@ -107,11 +107,11 @@
 <!-- wp:group {"className":"cds-section__inner cds-fade"} -->
 <div class="wp-block-group cds-section__inner cds-fade">
 <!-- wp:paragraph {"className":"cds-eyebrow"} -->
-<p class="cds-eyebrow">The morning</p>
+<p class="cds-eyebrow">The day</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"cds-heading"} -->
-<h2 class="wp-block-heading cds-heading">How the morning runs</h2>
+<h2 class="wp-block-heading cds-heading">Agreed before you go out</h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"className":"cds-rule cds-rule--brass"} -->
@@ -125,7 +125,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>You are met in the dark at an agreed meeting point. Kit is sorted out quietly and we walk in from there.</p>
+<p>Where and when you meet, and how the day begins, are agreed with your guide before you come out. [MEETING ARRANGEMENTS: TO BE CONFIRMED]</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -133,11 +133,11 @@
 <!-- wp:group {"className":"cds-steprow"} -->
 <div class="wp-block-group cds-steprow">
 <!-- wp:heading {"level":3,"className":"cds-steprow__title"} -->
-<h3 class="wp-block-heading cds-steprow__title">Safety briefing</h3>
+<h3 class="wp-block-heading cds-steprow__title">Safety</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Before anything else, the guide covers how the morning will be run and what is expected of you. [DETAILS TO BE CONFIRMED]</p>
+<p>How safety is handled is explained when you book, and you can ask about it as early as you like. [DETAILS TO BE CONFIRMED]</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -145,11 +145,11 @@
 <!-- wp:group {"className":"cds-steprow"} -->
 <div class="wp-block-group cds-steprow">
 <!-- wp:heading {"level":3,"className":"cds-steprow__title"} -->
-<h3 class="wp-block-heading cds-steprow__title">Checking zero</h3>
+<h3 class="wp-block-heading cds-steprow__title">The rifle</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Where a rifle is used, zero is checked before the stalk begins so there is no doubt about it later. [DETAILS TO BE CONFIRMED]</p>
+<p>What happens about the rifle, and the conditions that go with it, is settled before an outing is confirmed. [DETAILS TO BE CONFIRMED]</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -161,7 +161,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Then it is slow work into the wind, stopping often, glassing hedge lines and field edges as the light comes up.</p>
+<p>Stalking, wherever it is done, is quiet, patient work. What a stalk here looks like is for your guide to describe when you enquire.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -231,11 +231,11 @@
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose">
 <!-- wp:paragraph -->
-<p>Every outing is arranged personally, so the cost depends on what is planned: the length of the morning, the species being looked for, and how many of you are coming out. Rather than publish a figure that would not fit most enquiries, you get a straight price in the reply.</p>
+<p>That is deliberate, not an oversight. Guided stalking and landowner deer management are both priced on enquiry.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Send a short enquiry with the dates you have in mind and you will get a straight answer on availability and cost.</p>
+<p>Send a short enquiry with the dates you have in mind and you will get an answer on availability and cost.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -266,31 +266,31 @@
 <div class="wp-block-group cds-accordion">
 <!-- wp:details {"className":"cds-accordion__item"} -->
 <details class="wp-block-details cds-accordion__item"><summary>Do I need any experience?</summary><!-- wp:paragraph -->
-<p>No. Outings are arranged around what you have and have not done before, and there is no expectation that you arrive knowing the ground. Everything you need to know is covered before you set off.</p>
+<p>You can enquire with none at all. First outings are part of what is offered here, and anything you would need before a date is confirmed is explained when you get in touch.</p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"cds-accordion__item"} -->
 <details class="wp-block-details cds-accordion__item"><summary>Do I need my own rifle or a firearms certificate?</summary><!-- wp:paragraph -->
-<p>Rifle arrangements are explained personally before an outing is confirmed, because the answer depends on your own certificate position. [DETAILS TO BE CONFIRMED]</p>
+<p>The rifle arrangement is explained when you enquire, before any outing is confirmed. [DETAILS TO BE CONFIRMED]</p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"cds-accordion__item"} -->
 <details class="wp-block-details cds-accordion__item"><summary>What should I wear?</summary><!-- wp:paragraph -->
-<p>Quiet, muted clothing and boots that suit wet ground. Nothing bright and nothing that rustles. [DETAILS TO BE CONFIRMED]</p>
+<p>Quiet, muted clothing is the norm for stalking anywhere. Anything specific to the day is confirmed when you book. [DETAILS TO BE CONFIRMED]</p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"cds-accordion__item"} -->
 <details class="wp-block-details cds-accordion__item"><summary>How long does an outing last?</summary><!-- wp:paragraph -->
-<p>Most outings run from before first light through the morning. The exact length is agreed when the date is confirmed. [DETAILS TO BE CONFIRMED]</p>
+<p>Length, start time and meeting arrangements are all agreed when the date is confirmed. [DETAILS TO BE CONFIRMED]</p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"cds-accordion__item"} -->
 <details class="wp-block-details cds-accordion__item"><summary>How fit do I need to be?</summary><!-- wp:paragraph -->
-<p>The ground is flat and the walking is steady rather than hard, but there is standing about in the cold and some wet field edges. Tell me about anything that affects walking and the morning is planned around it.</p>
+<p>Cambridgeshire is flat country, so there is no hill walking to worry about. Mention anything that affects walking when you enquire.</p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
@@ -303,7 +303,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"cds-smallmuted"} -->
-<p class="cds-smallmuted">Anything to do with seasons, certificates and insurance is confirmed in writing when a date is booked.</p>
+<p class="cds-smallmuted">Anything to do with seasons, certificates and insurance is confirmed when a date is booked.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -319,7 +319,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Ask about a morning stalk</h2>
+<h2 class="wp-block-heading">Ask about a guided stalk</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-ctaband__lead"} -->
