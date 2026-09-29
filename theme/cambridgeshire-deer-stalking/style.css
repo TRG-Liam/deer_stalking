@@ -2,7 +2,7 @@
 Theme Name: Blackthorn Hunting
 Description: Custom block theme for Blackthorn Hunting, guided deer stalking in Cambridgeshire.
 Author: Liam Rourke
-Version: 0.2.9
+Version: 0.3.0
 Requires at least: 6.7
 Requires PHP: 8.1
 License: GNU General Public License v2 or later
@@ -231,9 +231,8 @@ body.admin-bar .cds-header{top:32px}
 .cds-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-pages-list__item:last-child{margin-top:var(--space-6)}
 .cds-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-pages-list__item:last-child a{display:inline-flex;background:var(--accent);color:var(--accent-text);font-family:var(--font-body);font-size:var(--size-caption);font-weight:var(--weight-body-medium);letter-spacing:var(--tracking-button);text-transform:uppercase;padding:15px var(--space-6);border-radius:var(--radius)}
 
-/* The header CTA cannot fit beside logo and burger on a phone; the
-   drawer's Contact button takes its place there. */
-@media(max-width:519px){.cds-header__inner .wp-block-buttons{display:none}}
+/* Phone header CTA rules live at the end of this file, after the
+   nowrap hardening they must override. */
 
 /* Header responsive hardening. The one-row header must never wrap:
    below 1100px the row tightens, below 900px the navigation collapses
@@ -299,3 +298,17 @@ html.no-js .cds-fade{opacity:1;transform:none}
 .cds-form__actions{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-5);margin-top:var(--space-6)}
 .cds-form__note{font-size:var(--size-caption);color:var(--charcoal-muted);max-width:38ch;margin:0}
 .cds-card a,.cds-card__more a{color:inherit;text-decoration:none;border-bottom:0}
+/* ==================================================================
+   Phone header: logo and burger on the first row, a slim full-width
+   Request availability bar underneath. The bar tucks away once the
+   page scrolls so the fixed header stays shallow while reading.
+   Placed last so it overrides the nowrap hardening above.
+   ================================================================== */
+
+@media(max-width:519px){
+	.cds-header__inner{flex-wrap:wrap;row-gap:0;padding-bottom:var(--space-4)}
+	.cds-header__inner .wp-block-buttons{display:flex;width:100%;order:3;margin-top:var(--space-3)}
+	.cds-header__inner .wp-block-button{width:100%}
+	.cds-header__inner .wp-block-button .wp-block-button__link{width:100%;justify-content:center;padding-top:12px;padding-bottom:12px}
+	.cds-header.is-scrolled .cds-header__inner .wp-block-buttons{display:none}
+}

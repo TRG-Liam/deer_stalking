@@ -16,10 +16,12 @@
 		root.classList.add( 'js' );
 	}
 
-	/* Header: transparent over the home hero, solid once scrolled. */
+	/* Header: transparent over the home hero, solid once scrolled. The
+	   is-scrolled class also tucks the phone CTA bar away, so it runs
+	   on every page, not just home. */
 	var header = document.querySelector( '.cds-header' );
 
-	if ( header && document.body.classList.contains( 'home' ) ) {
+	if ( header ) {
 		var setHeaderState = function () {
 			header.classList.toggle( 'is-scrolled', window.scrollY > 40 );
 		};
