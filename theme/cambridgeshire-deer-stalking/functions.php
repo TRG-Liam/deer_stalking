@@ -78,6 +78,35 @@ function cds_create_site_pages() {
 		update_option( 'page_on_front', $front_id );
 	}
 
+	// Privacy page: WordPress ships a draft that squats on the
+	// /privacy-policy/ slug, so publish our content into it rather
+	// than creating a second page. The header nav uses explicit links,
+	// so this page never appears in the menu.
+	$privacy_pattern = $registry->get_registered( 'cds/page-privacy' );
+	if ( $privacy_pattern ) {
+		$privacy_args = array(
+			'post_type'    => 'page',
+			'post_status'  => 'publish',
+			'post_title'   => 'Privacy Policy',
+			'post_name'    => 'privacy-policy',
+			'post_content' => $privacy_pattern['content'],
+			'menu_order'   => 60,
+		);
+
+		$draft_id = (int) get_option( 'wp_page_for_privacy_policy' );
+		$existing = get_page_by_path( 'privacy-policy' );
+
+		if ( $draft_id ) {
+			$privacy_args['ID'] = $draft_id;
+			wp_update_post( $privacy_args );
+		} elseif ( $existing && 'publish' !== $existing->post_status ) {
+			$privacy_args['ID'] = $existing->ID;
+			wp_update_post( $privacy_args );
+		} elseif ( ! $existing ) {
+			wp_insert_post( $privacy_args );
+		}
+	}
+
 	update_option( 'permalink_structure', '/%postname%/' );
 	flush_rewrite_rules();
 	update_option( 'cds_pages_created', 1 );

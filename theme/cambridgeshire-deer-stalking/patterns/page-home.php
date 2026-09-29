@@ -30,11 +30,11 @@
 <div class="wp-block-group alignfull cds-section"><!-- wp:group {"className":"cds-section__inner cds-section__inner--text cds-fade"} -->
 <div class="wp-block-group cds-section__inner cds-section__inner--text cds-fade"><!-- wp:group {"className":"cds-prose cds-prose--lead"} -->
 <div class="wp-block-group cds-prose cds-prose--lead"><!-- wp:paragraph -->
-<p>This is one guide, a rifle and a morning on ground he knows well. Nothing is rushed and nothing is staged. You are met in the dark, you walk in together, and you spend the first hour watching a county that most people only ever drive through.</p>
+<p>Blackthorn Hunting offers professionally guided deer stalking on private ground in Cambridgeshire. Outings run at first and last light, one party at a time, and are arranged personally by enquiry.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Cambridgeshire is quiet, low and close. Hedgerows, spinneys, drains and big arable fields hold three species of deer, and the work is done close in, on foot. Outings are arranged one at a time by enquiry, so each one is planned around the person coming out.</p>
+<p>The ground holds roe, muntjac and Chinese water deer. No experience is assumed, and every outing is planned around the person coming out.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -106,12 +106,8 @@
 
 <!-- wp:group {"align":"full","className":"cds-section"} -->
 <div class="wp-block-group alignfull cds-section"><!-- wp:group {"className":"cds-section__inner cds-fade"} -->
-<div class="wp-block-group cds-section__inner cds-fade"><!-- wp:paragraph {"className":"cds-eyebrow"} -->
-<p class="cds-eyebrow">The deer</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"className":"cds-heading"} -->
-<h2 class="wp-block-heading cds-heading">Three species, one county</h2>
+<div class="wp-block-group cds-section__inner cds-fade"><!-- wp:heading {"className":"cds-heading"} -->
+<h2 class="wp-block-heading cds-heading">The deer</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-heading__lead"} -->
@@ -206,12 +202,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"cds-mediatext__body cds-fade"} -->
-<div class="wp-block-group cds-mediatext__body cds-fade"><!-- wp:paragraph {"className":"cds-eyebrow"} -->
-<p class="cds-eyebrow">Your guide</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"className":"cds-heading"} -->
-<h2 class="wp-block-heading cds-heading">Out with Mitch</h2>
+<div class="wp-block-group cds-mediatext__body cds-fade"><!-- wp:heading {"className":"cds-heading"} -->
+<h2 class="wp-block-heading cds-heading">Your guide</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-heading__lead"} -->

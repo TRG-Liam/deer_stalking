@@ -87,7 +87,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-ctaband__lead"} -->
-<p class="cds-ctaband__lead">If deer are costing you crops or trees, or the herd on your land needs bringing into balance, get in touch and Mitch will talk it through with you.</p>
+<p class="cds-ctaband__lead">If deer are costing you crops or trees, or the herd on your land needs bringing into balance, get in touch and talk it through.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->

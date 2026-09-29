@@ -2,7 +2,7 @@
 Theme Name: Blackthorn Hunting
 Description: Custom block theme for Blackthorn Hunting, guided deer stalking in Cambridgeshire.
 Author: Liam Rourke
-Version: 0.3.0
+Version: 0.3.1
 Requires at least: 6.7
 Requires PHP: 8.1
 License: GNU General Public License v2 or later
@@ -225,11 +225,11 @@ body.admin-bar .cds-header{top:32px}
    selectors deliberately stack classes to win. */
 .cds-header .wp-block-navigation__responsive-container.has-modal-open.is-menu-open{background-color:var(--green-black)!important;padding:var(--space-9) var(--space-6) var(--space-7)}
 .cds-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content,
-.cds-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-pages-list__item a{color:var(--parchment);opacity:1;font-family:var(--font-display);font-size:var(--size-h3);font-weight:var(--weight-display);border-bottom:0}
+.cds-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item a{color:var(--parchment);opacity:1;font-family:var(--font-display);font-size:var(--size-h3);font-weight:var(--weight-display);border-bottom:0}
 .cds-header .wp-block-navigation__responsive-container.is-menu-open ul{gap:var(--space-5)}
 .cds-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content[aria-current="page"]{color:var(--brass)}
-.cds-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-pages-list__item:last-child{margin-top:var(--space-6)}
-.cds-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-pages-list__item:last-child a{display:inline-flex;background:var(--accent);color:var(--accent-text);font-family:var(--font-body);font-size:var(--size-caption);font-weight:var(--weight-body-medium);letter-spacing:var(--tracking-button);text-transform:uppercase;padding:15px var(--space-6);border-radius:var(--radius)}
+.cds-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item:last-child{margin-top:var(--space-6)}
+.cds-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item:last-child a{display:inline-flex;background:var(--accent);color:var(--accent-text);font-family:var(--font-body);font-size:var(--size-caption);font-weight:var(--weight-body-medium);letter-spacing:var(--tracking-button);text-transform:uppercase;padding:15px var(--space-6);border-radius:var(--radius)}
 
 /* Phone header CTA rules live at the end of this file, after the
    nowrap hardening they must override. */
@@ -312,3 +312,26 @@ html.no-js .cds-fade{opacity:1;transform:none}
 	.cds-header__inner .wp-block-button .wp-block-button__link{width:100%;justify-content:center;padding-top:12px;padding-bottom:12px}
 	.cds-header.is-scrolled .cds-header__inner .wp-block-buttons{display:none}
 }
+/* ==================================================================
+   Mobile polish pass (Liam's 29 Sep walkthrough)
+   ================================================================== */
+
+/* Hero eyebrow sat on the brightest part of the sky on phones: deepen
+   the top of the scrim there without touching the desktop grade. */
+@media(max-width:600px){
+	.wp-block-cover.cds-hero-cover .wp-block-cover__background{background:linear-gradient(to top,var(--green-black) 0%,rgba(25,38,32,.72) 30%,rgba(25,38,32,.30) 62%,rgba(25,38,32,.55) 100%)!important}
+}
+
+/* When the three-card grid stacks, the first card's hairline doubled
+   up with the brass rule above it. */
+@media(max-width:819px){
+	.cds-rule--brass + .cds-grid--3 .cds-card:first-child{border-top:0;padding-top:0}
+}
+
+/* Stacked media-and-text rows ended flush against the next section. */
+@media(max-width:899px){
+	.cds-mediatext__body{padding:var(--space-6) var(--gutter) var(--space-8)}
+}
+
+/* The CTA band centres its text but flex rows need telling. */
+.cds-ctaband .wp-block-buttons{justify-content:center}
