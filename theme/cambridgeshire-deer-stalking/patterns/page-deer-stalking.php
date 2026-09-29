@@ -49,7 +49,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Guided deer stalking is the only thing offered here. There is no range, no course and nothing else to book.</p>
+<p>Guided stalking and landowner deer management are the work here. There is no range, no course and nothing else to book.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

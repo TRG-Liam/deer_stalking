@@ -40,6 +40,7 @@ function cds_create_site_pages() {
 		array( 'deer-stalking', 'Deer Stalking', 'cds/page-deer-stalking', 20 ),
 		array( 'the-deer', 'The Deer', 'cds/page-the-deer', 30 ),
 		array( 'your-guide', 'Your Guide', 'cds/page-your-guide', 40 ),
+		array( 'deer-management', 'Deer Management', 'cds/page-deer-management', 45 ),
 		array( 'contact', 'Contact', 'cds/page-contact', 50 ),
 	);
 

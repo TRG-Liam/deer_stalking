@@ -215,12 +215,16 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-heading__lead"} -->
-<p class="cds-heading__lead">One guide, the same ground year after year, and time given to the people who come out on it.</p>
+<p class="cds-heading__lead">Looking for a memorable deer-stalking experience in the Cambridgeshire countryside?</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose"><!-- wp:paragraph -->
-<p>Mitch stalks deer across private land in Cambridgeshire. You will be with him for the whole morning, at whatever pace suits you, and he is happy to explain what he is looking at as the light comes up.</p>
+<p>Join Mitch, your experienced guide, for a professionally guided stalking experience across carefully managed ground.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Whether you're an experienced stalker or looking to experience guided deer stalking for the first time, get in touch with Mitch to discuss availability, species and stalking opportunities.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
