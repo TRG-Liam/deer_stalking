@@ -26,14 +26,17 @@ jobs:
 
       - name: Start WordPress Playground
         run: |
-          npx --yes @wp-playground/cli@latest server --port=8881 \
+          npx --yes @wp-playground/cli@3.1.48 server --port=8881 \
             --mount=./theme/cambridgeshire-deer-stalking:/wordpress/wp-content/themes/cambridgeshire-deer-stalking \
             --blueprint=./dev/ci-blueprint.json &
-          for i in $(seq 1 90); do
-            curl -sf -o /dev/null http://127.0.0.1:8881/ && break
+          # The port answers before WordPress is ready, and WordPress answers
+          # before the blueprint has finished (language pack, theme). Wait
+          # for the home page built by the theme, not just any 200.
+          for i in $(seq 1 150); do
+            curl -sf http://127.0.0.1:8881/ | grep -q "cds-hero-cover" && break
             sleep 2
           done
-          curl -sf -o /dev/null http://127.0.0.1:8881/ || (echo "Playground never came up" && exit 1)
+          curl -sf http://127.0.0.1:8881/ | grep -q "cds-hero-cover" || { echo "Site never came up with the theme active"; exit 1; }
 
       - name: Snapshot site to static HTML
         run: |
@@ -44,6 +47,12 @@ jobs:
                --reject-regex '[?]' \
                --reject 'xmlrpc*,wp-login*' \
                http://127.0.0.1:8881/ || true
+
+          # GitHub Pages serves 404.html for unknown addresses: use the
+          # theme's own not-found page. Its root-relative links are pointed
+          # at the Pages subpath here, since wget never sees this file.
+          curl -s -o _site/404.html http://127.0.0.1:8881/cds-not-a-real-page/
+          sed -i -E 's#href="/"#href="/deer_stalking/"#g; s#(href|src)="/([^/"])#\1="/deer_stalking/\2#g' _site/404.html
 
           # WordPress prints some link tags with single-quoted attributes:
           # normalise them to double quotes so one set of patterns covers all.
@@ -72,15 +81,21 @@ jobs:
 
           touch _site/.nojekyll
 
-          # Sanity gates: pages exist, hero survived, no sandbox URLs left,
-          # and every stylesheet the HTML references is actually in the artifact.
-          test -f _site/index.html
-          test -f _site/deer-stalking/index.html
-          test -f _site/the-deer/index.html
-          test -f _site/your-guide/index.html
-          test -f _site/contact/index.html
-          grep -q "Quiet mornings" _site/index.html
-          ! grep -q "127.0.0.1:8881" _site/index.html
+          # Sanity gates. These check structure, never wording, so a copy
+          # edit can not break the deploy: every page exists, the hero and
+          # the enquiry form fields survived, the not-found page is the
+          # theme's, the demo is marked noindex, no sandbox URLs are left,
+          # and every stylesheet the HTML references is in the artifact.
+          for page in "" deer-stalking/ the-deer/ deer-management/ contact/ privacy-policy/; do
+            test -f "_site/${page}index.html" || { echo "MISSING page: /${page}"; exit 1; }
+          done
+          grep -q 'cds-hero-cover' _site/index.html || { echo "Home hero missing"; exit 1; }
+          grep -q '<input' _site/contact/index.html || { echo "Enquiry form fields missing"; exit 1; }
+          grep -q 'cds-section--404' _site/404.html || { echo "Not-found page missing"; exit 1; }
+          grep -q 'noindex' _site/index.html || { echo "Demo is not marked noindex"; exit 1; }
+          if grep -rlq "127.0.0.1:8881" _site --include='*.html' --include='*.css'; then
+            echo "Sandbox URLs left in the snapshot"; exit 1
+          fi
           grep -rhoE 'href="/deer_stalking/[^"]*\.css"' _site --include='*.html' \
             | sed -E 's#^href="/deer_stalking/##; s/"$//' | sort -u | while read -r css; do
               test -f "_site/$css" || { echo "MISSING stylesheet: $css"; exit 1; }

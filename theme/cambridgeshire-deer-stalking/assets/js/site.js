@@ -10,6 +10,9 @@
 
 	var root = document.documentElement;
 
+	/* Tells the failsafe in the page head that this script loaded. */
+	window.cdsReady = true;
+
 	if ( root.classList.contains( 'no-js' ) ) {
 		root.classList.replace( 'no-js', 'js' );
 	} else {

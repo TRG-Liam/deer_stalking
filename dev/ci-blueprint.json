@@ -1,5 +1,18 @@
 {
   "steps": [
-    { "step": "activateTheme", "themeFolderName": "cambridgeshire-deer-stalking" }
+    {
+      "step": "setSiteLanguage",
+      "language": "en_GB"
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blog_public": "0"
+      }
+    },
+    {
+      "step": "activateTheme",
+      "themeFolderName": "cambridgeshire-deer-stalking"
+    }
   ]
 }

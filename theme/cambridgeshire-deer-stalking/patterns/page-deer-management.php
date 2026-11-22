@@ -17,28 +17,24 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-pagehead__lead"} -->
-<p class="cds-pagehead__lead">Deer management for your ground, with the details agreed with you before any work starts.</p>
+<p class="cds-pagehead__lead">Deer management for landowners in Cambridgeshire.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"full","className":"cds-section"} -->
 <div class="wp-block-group alignfull cds-section"><!-- wp:group {"className":"cds-section__inner cds-section__inner--text cds-fade"} -->
-<div class="wp-block-group cds-section__inner cds-section__inner--text cds-fade"><!-- wp:paragraph {"className":"cds-eyebrow"} -->
-<p class="cds-eyebrow">The pressure</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"className":"cds-heading"} -->
-<h2 class="wp-block-heading cds-heading">Deer numbers are rising</h2>
+<div class="wp-block-group cds-section__inner cds-section__inner--text cds-fade"><!-- wp:heading {"className":"cds-heading"} -->
+<h2 class="wp-block-heading cds-heading">Why deer are managed</h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose"><!-- wp:paragraph -->
-<p>With few natural predators, milder winters and food in the fields for most of the year, wild deer numbers across this part of England have grown steadily and are still growing.</p>
+<p>Wild deer have no natural predators in England, and their numbers have grown across much of the country.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>On the ground, that shows up as browsing damage in young woodland, grazing losses along the field edges, and deer in poorer condition as numbers outgrow what the land can carry.</p>
+<p>Where numbers are high, deer can damage crops, young trees and woodland. Legal, humane culling is the main way wild deer numbers are kept in check.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -46,31 +42,17 @@
 
 <!-- wp:group {"align":"full","className":"cds-section cds-section--alt"} -->
 <div class="wp-block-group alignfull cds-section cds-section--alt"><!-- wp:group {"className":"cds-section__inner cds-section__inner--text cds-fade"} -->
-<div class="wp-block-group cds-section__inner cds-section__inner--text cds-fade"><!-- wp:paragraph {"className":"cds-eyebrow"} -->
-<p class="cds-eyebrow">The work</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"className":"cds-heading"} -->
-<h2 class="wp-block-heading cds-heading">Management agreed around your land</h2>
+<div class="wp-block-group cds-section__inner cds-section__inner--text cds-fade"><!-- wp:heading {"className":"cds-heading"} -->
+<h2 class="wp-block-heading cds-heading">Working with landowners</h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"cds-prose"} -->
 <div class="wp-block-group cds-prose"><!-- wp:paragraph -->
-<p>Responsible culling is the most humane way to bring a wild population back to a level the ground can support, and to hold it there season after season.</p>
+<p>Blackthorn Hunting offers deer management to landowners in Cambridgeshire.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>What happens on your ground is agreed with you first. Cropping, shoot days, footpaths, livestock and neighbours all belong in that conversation, along with how risk and disturbance will be handled. [DETAILS TO BE CONFIRMED]</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"className":"cds-imgph","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
-<div class="wp-block-group cds-imgph" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"className":"cds-imgph__label"} -->
-<p class="cds-imgph__label">Photograph to follow</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"cds-imgph__note"} -->
-<p class="cds-imgph__note"><em>Young plantation showing browsing damage on the leading shoots.</em></p>
+<p>[HOW THE WORK IS ARRANGED WITH LANDOWNERS, INCLUDING RISK ASSESSMENT: TO BE CONFIRMED]</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -83,21 +65,17 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Talk through your ground</h2>
+<h2 class="wp-block-heading">Deer on your land?</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-ctaband__lead"} -->
-<p class="cds-ctaband__lead">If deer are costing you crops or trees, or the herd on your land needs bringing into balance, get in touch and talk it through.</p>
+<p class="cds-ctaband__lead">Get in touch to talk about deer management on your land.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-cds-primary"} -->
 <div class="wp-block-button is-style-cds-primary"><a class="wp-block-button__link wp-element-button" href="/contact/">Get in touch</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons -->
-
-<!-- wp:paragraph {"className":"cds-ctaband__contact"} -->
-<p class="cds-ctaband__contact">[PHONE NUMBER] / [EMAIL]</p>
-<!-- /wp:paragraph --></div>
+<!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

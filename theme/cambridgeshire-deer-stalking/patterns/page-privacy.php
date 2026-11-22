@@ -8,11 +8,7 @@
 ?>
 <!-- wp:group {"align":"full","className":"cds-pagehead"} -->
 <div class="wp-block-group alignfull cds-pagehead"><!-- wp:group {"className":"cds-pagehead__inner"} -->
-<div class="wp-block-group cds-pagehead__inner"><!-- wp:paragraph {"className":"cds-eyebrow cds-eyebrow--onDark"} -->
-<p class="cds-eyebrow cds-eyebrow--onDark">The small print</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":1} -->
+<div class="wp-block-group cds-pagehead__inner"><!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">Privacy Policy</h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
@@ -30,7 +26,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The enquiry form is not yet live. Once it is, the details you type into it (your name, contact details, preferred dates and message) will be used only to reply to your enquiry, and this policy will be completed with how long they are kept and where.</p>
+<p>The enquiry form is not yet live, so nothing typed into it is sent or stored.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -42,7 +38,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Anything about how your details are handled: [EMAIL]</p>
+<p>For any question about how your details are handled, email [EMAIL].</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

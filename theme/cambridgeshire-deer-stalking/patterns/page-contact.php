@@ -17,7 +17,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"cds-pagehead__lead"} -->
-<p class="cds-pagehead__lead">Send a short message with rough dates and you will get a straight answer by reply.</p>
+<p class="cds-pagehead__lead">Get in touch to discuss availability, species and stalking opportunities.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -28,13 +28,7 @@
 <div class="wp-block-group cds-split"><!-- wp:group -->
 <div class="wp-block-group"><!-- wp:group {"className":"cds-prose cds-prose--lead"} -->
 <div class="wp-block-group cds-prose cds-prose--lead"><!-- wp:paragraph -->
-<p>There is no booking system here, and no prices to scroll through. Outings are arranged personally, so the simplest thing is to say when you are free and what you are hoping for.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"className":"cds-prose"} -->
-<div class="wp-block-group cds-prose"><!-- wp:paragraph -->
-<p>Replies come as soon as the day allows. [REPLY TIME TO BE CONFIRMED]</p>
+<p>Guided stalking is arranged by enquiry, and prices are on request. Landowners are welcome to get in touch about <a href="/deer-management/">deer management</a> too.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -59,14 +53,12 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"cds-eyebrow"} -->
-<p class="cds-eyebrow">Where the stalking is</p>
+<p class="cds-eyebrow">Area</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"className":"cds-prose"} -->
-<div class="wp-block-group cds-prose"><!-- wp:paragraph -->
-<p>The stalking is in Cambridgeshire. Exact locations are confirmed when you book.</p>
+<!-- wp:paragraph {"className":"cds-contactline"} -->
+<p class="cds-contactline">Cambridgeshire</p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"cds-formcard"} -->
@@ -75,35 +67,35 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Tell me about the outing you want</h2>
+<h2 class="wp-block-heading">Send an enquiry</h2>
 <!-- /wp:heading -->
 
 <!-- wp:html -->
 <!-- FORM PLUGIN EMBED REPLACES THIS BLOCK AT BUILD TIME -->
 <div class="cds-form">
 <div class="cds-field">
-<label class="cds-field__label">Name</label>
-<input class="cds-input" type="text" disabled />
+<label class="cds-field__label" for="cds-enq-name">Name</label>
+<input class="cds-input" id="cds-enq-name" type="text" disabled />
 </div>
 <div class="cds-field">
-<label class="cds-field__label">Email</label>
-<input class="cds-input" type="text" disabled />
+<label class="cds-field__label" for="cds-enq-email">Email</label>
+<input class="cds-input" id="cds-enq-email" type="email" disabled />
 </div>
 <div class="cds-field">
-<label class="cds-field__label">Phone</label>
-<input class="cds-input" type="text" disabled />
+<label class="cds-field__label" for="cds-enq-phone">Phone</label>
+<input class="cds-input" id="cds-enq-phone" type="tel" disabled />
 </div>
 <div class="cds-field">
-<label class="cds-field__label">Preferred dates</label>
-<input class="cds-input" type="text" disabled />
+<label class="cds-field__label" for="cds-enq-dates">Preferred dates</label>
+<input class="cds-input" id="cds-enq-dates" type="text" disabled />
 </div>
 <div class="cds-field">
-<label class="cds-field__label">Message</label>
-<textarea class="cds-textarea" rows="5" disabled></textarea>
+<label class="cds-field__label" for="cds-enq-message">Message</label>
+<textarea class="cds-textarea" id="cds-enq-message" rows="5" disabled></textarea>
 </div>
 <div class="cds-form__actions">
 <div class="wp-block-button is-style-cds-primary"><span class="wp-block-button__link wp-element-button">Send enquiry</span></div>
-<p class="cds-form__note">The live enquiry form is connected when the site goes on real hosting.</p>
+<p class="cds-form__note">This form is a preview and does not send yet.</p>
 </div>
 </div>
 <!-- /wp:html --></div>

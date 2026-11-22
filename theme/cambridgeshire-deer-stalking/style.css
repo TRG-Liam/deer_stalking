@@ -2,7 +2,7 @@
 Theme Name: Blackthorn Hunting
 Description: Custom block theme for Blackthorn Hunting, guided deer stalking in Cambridgeshire.
 Author: Liam Rourke
-Version: 0.3.1
+Version: 0.4.0
 Requires at least: 6.7
 Requires PHP: 8.1
 License: GNU General Public License v2 or later
@@ -17,10 +17,10 @@ Tags: block-theme, full-site-editing
 
 :root{
 --parchment:#ECE4D9;--sage:#E7E9E6;--green-black:#192620;--hunting-green:#104520;--charcoal:#3B423F;--brass:#A98B5F;--oxblood:#7B2631;
---parchment-deep:#E2D8C9;--parchment-soft:#F3EDE5;--sage-deep:#D9DDD8;--charcoal-muted:#6E736F;--brass-pale:#D9CCB4;--oxblood-deep:#631E27;--hunting-green-deep:#0B2F16;
+--parchment-deep:#E2D8C9;--parchment-soft:#F3EDE5;--sage-deep:#D9DDD8;--charcoal-muted:#5A5F5B;--brass-pale:#D9CCB4;--oxblood-deep:#631E27;--hunting-green-deep:#0B2F16;
 --ink-a08:rgba(25,38,32,.08);--ink-a14:rgba(25,38,32,.14);--ink-a24:rgba(25,38,32,.24);--brass-a30:rgba(169,139,95,.30);--brass-a50:rgba(169,139,95,.50);--paper-a16:rgba(236,228,217,.16);--paper-a30:rgba(236,228,217,.30);
 --surface-page:var(--parchment);--surface-alt:var(--sage);--surface-raised:var(--parchment-soft);--surface-dark:var(--green-black);--surface-brand:var(--hunting-green);--surface-card:var(--parchment-soft);
---text-body:var(--charcoal);--text-heading:var(--green-black);--text-brand:var(--hunting-green);--text-muted:var(--charcoal-muted);--text-label:var(--brass);--text-on-dark:var(--parchment);--text-on-dark-muted:rgba(236,228,217,.66);
+--text-body:var(--charcoal);--text-heading:var(--green-black);--text-brand:var(--hunting-green);--text-muted:var(--charcoal-muted);--text-label:#6F5A34;--text-on-dark:var(--parchment);--text-on-dark-muted:rgba(236,228,217,.66);
 --line-hairline:var(--ink-a14);--line-hairline-strong:var(--ink-a24);--line-brass:var(--brass-a50);--line-on-dark:var(--paper-a30);
 --accent:var(--oxblood);--accent-hover:var(--oxblood-deep);--accent-text:var(--parchment-soft);--focus-ring:var(--hunting-green);
 --font-display:"Cormorant Garamond","Cormorant",Georgia,"Times New Roman",serif;--font-body:"Inter","Helvetica Neue",Arial,sans-serif;
@@ -135,7 +135,7 @@ body .cds-accordion > *{margin-block-start:0;margin-block-end:0}
 .cds-accordion{border-top:1px solid var(--line-hairline)}
 .cds-accordion__item{border-bottom:1px solid var(--line-hairline)}
 .cds-imgph{display:flex;flex-direction:column;justify-content:flex-end;gap:var(--space-2);background:var(--parchment-deep);border:1px solid var(--line-brass);padding:var(--space-5);color:var(--charcoal-muted);min-height:180px;width:100%}
-.cds-imgph__label{font-size:var(--size-label);letter-spacing:var(--tracking-label);text-transform:uppercase;color:var(--brass)}
+.cds-imgph__label{font-size:var(--size-label);letter-spacing:var(--tracking-label);text-transform:uppercase;color:var(--text-label)}
 .cds-imgph__note{font-size:var(--size-caption);line-height:var(--leading-tight);max-width:34ch;margin:0}
 .cds-hero{position:relative;min-height:90vh;display:flex;align-items:flex-end;overflow:hidden;background:var(--green-black)}
 .cds-hero__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
@@ -335,3 +335,34 @@ html.no-js .cds-fade{opacity:1;transform:none}
 
 /* The CTA band centres its text but flex rows need telling. */
 .cds-ctaband .wp-block-buttons{justify-content:center}
+
+/* ==================================================================
+   Accessibility and robustness pass (22 Nov)
+   ================================================================== */
+
+/* The default focus ring is hunting green, which disappears on the
+   dark surfaces. Use parchment there. */
+.cds-header :focus-visible,
+.cds-footer :focus-visible,
+.cds-pagehead :focus-visible,
+.cds-ctaband :focus-visible,
+.cds-hero-cover :focus-visible{outline-color:var(--parchment)}
+
+/* Text links typed into dark sections would otherwise inherit the
+   green link colour and vanish. */
+.cds-ctaband a:not(.wp-block-button__link),
+.cds-pagehead a,
+.cds-hero-cover a:not(.wp-block-button__link){color:var(--text-on-dark);border-bottom-color:var(--paper-a30)}
+.cds-ctaband a:not(.wp-block-button__link):hover,
+.cds-pagehead a:hover,
+.cds-hero-cover a:not(.wp-block-button__link):hover{color:var(--text-on-dark);border-bottom-color:var(--parchment)}
+
+/* Printing never waits for the scroll reveal. */
+@media print{
+	.cds-fade{opacity:1!important;transform:none!important}
+	.cds-header{position:static}
+}
+
+/* The not-found page has no dark page head, so its section clears the
+   fixed header itself. */
+.cds-section--404{padding-top:calc(var(--space-9) + 96px);min-height:60vh}
