@@ -41,7 +41,9 @@ jobs:
       - name: Snapshot site to static HTML
         run: |
           mkdir -p _site
-          wget --mirror --convert-links --adjust-extension --page-requisites \
+          # robots=off: the demo is marked noindex, nofollow on purpose, and
+          # wget would otherwise obey that and stop at the home page.
+          wget -e robots=off --mirror --convert-links --adjust-extension --page-requisites \
                --no-parent --no-host-directories --directory-prefix=_site \
                --exclude-directories=wp-admin,wp-json \
                --reject-regex '[?]' \
